@@ -1,0 +1,72 @@
+#django==1.9.10
+django==1.11.12
+#psycopg2
+#pymongo
+djangorestframework>=3.4.0
+djangorestframework-jwt
+django-rest-auth
+django-allauth==0.28.0
+django-avatar
+#python-dateutil
+#raven
+simplejson
+requests
+
+#django-anymail[mailgun]
+# -e git+https://github.com/sipp11/django-user-sessions.git#egg=django-user-sessions
+
+# pipeline
+# django-pipeline
+# jsmin
+
+#celery[redis,mongodb,auth,msgpack,zeromq]
+#redis
+# production
+#gunicorn
+#python-memcached
+#Fabric
+#django-cors-headers
+
+arrow
+
+#django-filter>=1.0.1
+#django-versatileimagefield
+
+# geo stuff
+#geopy
+
+#Jinja2
+
+#unicode-slugify
+
+# cctv -- capture
+#boto
+#-e 'git+https://github.com/jschneier/django-storages.git#egg=django-storages'
+#pillow
+
+# pdf
+#reportlab
+#lxml
+
+
+# base64 serializer
+#django-extra-fields
+
+#django-extensions
+
+# Google
+#google-cloud-bigquery
+#google_compute_engine  		# preemptible
+#google-api-python-client  	# update box_id and information
+#google-cloud-datastore
+#google-cloud-pubsub==0.34.0
+#pyrebase
+#gspread
+#google-cloud==0.32.0
+
+
+# pong
+ipython			# just for development
+numpy
+#pymemcache
+#apscheduler
